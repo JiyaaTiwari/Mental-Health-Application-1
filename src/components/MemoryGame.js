@@ -20,7 +20,7 @@ const Card = ({ card, handleCardClick }) => {
           status !== 'default' ? '[transform:rotateY(180deg)]' : ''
         }`}
       >
-        <div className="absolute w-full h-full rounded-xl bg-pastel-lilac hover:scale-105 transition-transform duration-200 [backface-visibility:hidden]"></div>
+        <div className="absolute w-full h-full rounded-xl bg-orange-400 hover:scale-105 transition-transform duration-200 [backface-visibility:hidden]"></div>
         <div
           className={`absolute w-full h-full rounded-xl flex items-center justify-center text-4xl [backface-visibility:hidden] [transform:rotateY(180deg)] ${getCardBackground()}`}
         >
